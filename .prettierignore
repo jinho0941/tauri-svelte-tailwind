@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Package Managers
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lock
+bun.lockb
+
+# SvelteKit
+.svelte-kit/
+build/
+.output/
+
+# Tauri
+src-tauri/target/
+src-tauri/WixTools/
+src-tauri/gen/
+src-tauri/Cargo.lock
+
+# Tauri Build Outputs
+*.AppImage
+*.deb
+*.rpm
+*.dmg
+*.exe
+*.msi
+*.app
+
+# Mobile (Android/iOS)
+src-tauri/gen/android/
+src-tauri/gen/ios/
+
+# Static Files
+/static/
+
+# Build & Dist
+dist/
+dist-ssr/
+out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary
+*.tmp
+*.temp
+.cache/
+
+# Tauri Config Schema (auto-generated)
+src-tauri/capabilities/
